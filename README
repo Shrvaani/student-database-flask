@@ -1,0 +1,82 @@
+Student Database Flask App
+This is a simple Flask project for managing a student database. The app allows you to create, read, update, and delete student records.
+
+Installation
+Clone the repository:
+bash
+
+
+git clone https://github.com/yourusername/student-database-flask-app.git
+Navigate to the project directory:
+bash
+
+
+cd student-database-flask-app
+Create and activate a virtual environment:
+bash
+
+
+python3 -m venv venv
+source venv/bin/activate
+Install the dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Initialize the database:
+bash
+
+
+flask init-db
+Run the app:
+bash
+
+
+flask run
+Open a web browser and navigate to http://localhost:5000/ to view the app.
+Usage
+Creating a new student record
+Click the "Add Student" button on the home page.
+
+Fill in the form with the student's information and click "Save".
+
+Viewing a student record
+Click on a student's name in the list on the home page.
+
+This will take you to the student's detail page, where you can view and edit their information.
+
+Updating a student record
+Click on a student's name in the list on the home page.
+
+Click the "Edit" button on the student's detail page.
+
+Update the student's information and click "Save".
+
+Deleting a student record
+Click on a student's name in the list on the home page.
+
+Click the "Delete" button on the student's detail page.
+
+Confirm that you want to delete the student.
+
+Contributing
+If you would like to contribute to this project, please follow these steps:
+
+Fork the repository.
+
+Create a new branch:
+
+bash
+
+
+git checkout -b my-new-feature
+Make your changes and commit them:
+bash
+
+
+git commit -m "Add some feature"
+Push to the branch:
+bash
+
+
+git push origin my-new-feature
+Create a new pull request.
